@@ -1,136 +1,215 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-        />
-        <link rel="stylesheet" href="./assets/css/start-rating-svg.css" />
-        <link rel="stylesheet" href="./style.css" />
-    </head>
-    <body>
-        <header>
-            <div class="bg-secondary">
-                <div class="container text-center py-2">
-                    <p class="text-[12px] lg:text-sm text-white">
-                        LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout.
-                        <span class="pl-4">23:00:00</span>
-                    </p>
-                </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/start-rating-svg.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="bg-secondary">
+            <div class="container text-center py-2">
+                <p class="text-[12px] lg:text-sm text-white">
+                    LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout.
+                    <span class="pl-4">23:00:00</span>
+                </p>
             </div>
-            <div class="py-4 lg:border-b lg:border-neutral-400">
-                <div class="container">
-                    <div class="flex flex-wrap lg:flex-nowrap justify-between lg:gap-8">
-                        <div class="order-1 flex items-center space-x-4 lg:-ml-9">
-                            <button class="lg:hidden">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke-width="1.5"
-                                    stroke="currentColor"
-                                    class="size-6"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                                    />
-                                </svg>
-                            </button>
-                            <a href="">
-                                <img
-                                    srcset="./assets/images/logo.png 2x"
-                                    alt=""
-                                    class="w-[119px] lg:w-full"
-                                />
-                            </a>
-                        </div>
-                        <form
-                            action=""
-                            class="w-full order-3 lg:order-2 flex gap-2 border-t mt-4 lg:mt-0 border-neutral-400 pt-4 lg:w-auto lg:pt-0 lg:border-0"
-                        >
-                            <input
-                                type="text"
-                                class="py-1 pl-6 pr-1 rounded-full bg-white border border-[#F4F4F4] w-full lg:w-[400px]"
-                                placeholder="Search"
-                            />
-                            <button
-                                type="submit"
-                                class="bg-primary rounded-full w-[58px] lg:w-12 h-12"
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke-width="1.5"
-                                    stroke="currentColor"
-                                    class="size-6 text-white mx-auto"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-                                    />
-                                </svg>
-                            </button>
-                        </form>
-                        <div class="order-2 lg:order-3 flex items-center gap-2 lg:gap-6 lg:-mr-9">
-                            <a href="" class="text-sm lg:text-base">Your Account</a> |
-                            <button class="relative">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke-width="1.5"
-                                    stroke="currentColor"
-                                    class="size-6"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
-                                    />
-                                </svg>
-                                <span
-                                    class="text-[12px] absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full text-white"
-                                    >1</span
-                                >
-                            </button>
-                        </div>
+        </div>
+        <div class="py-4 lg:border-b lg:border-neutral-400">
+            <div class="container">
+                <div class="flex flex-wrap lg:flex-nowrap justify-between lg:gap-8">
+                    <div class="order-1 flex items-center space-x-4 lg:-ml-9">
+                        <button class="lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </button>
+                        <a href="">
+                            <img srcset="./assets/images/logo.png 2x" alt="" class="w-[119px] lg:w-full" />
+                        </a>
+                    </div>
+                    <form action=""
+                        class="w-full order-3 lg:order-2 flex gap-2 border-t mt-4 lg:mt-0 border-neutral-400 pt-4 lg:w-auto lg:pt-0 lg:border-0">
+                        <input type="text"
+                            class="py-1 pl-6 pr-1 rounded-full bg-white border border-[#F4F4F4] w-full lg:w-[400px]"
+                            placeholder="Search" />
+                        <button type="submit" class="bg-primary rounded-full w-[58px] lg:w-12 h-12">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 text-white mx-auto">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg>
+                        </button>
+                    </form>
+                    <div class="order-2 lg:order-3 flex items-center gap-2 lg:gap-6 lg:-mr-9">
+                        <a href="" class="text-sm lg:text-base">Your Account</a> |
+                        <button class="relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            <span
+                                class="text-[12px] absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full text-white">1</span>
+                        </button>
                     </div>
                 </div>
             </div>
-            <div class="hidden lg:block">
-                <div class="container">
-                    <nav>
-                        <ul class="lg:flex items-center justify-center space-x-10 text-[#46494F]">
-                            <li><a href="" class="block py-4">Shop All</a></li>
-                            <li><a href="" class="block py-4">Flower</a></li>
-                            <li><a href="" class="block py-4">Edibles</a></li>
-                            <li><a href="" class="block py-4">Concentrates</a></li>
-                            <li><a href="" class="block py-4">Mushrooms</a></li>
-                            <li><a href="" class="block py-4">Promotions/Bundles</a></li>
-                            <li><a href="" class="block py-4">Support</a></li>
-                            <li><a href="" class="block py-4">Rewards</a></li>
-                            <li><a href="" class="block py-4">Blog</a></li>
-                        </ul>
-                    </nav>
+        </div>
+        <div class="hidden lg:block">
+            <div class="container">
+                <nav>
+                    <ul class="lg:flex items-center justify-center space-x-10 text-[#46494F]">
+                        <li><a href="" class="block py-4">Shop All</a></li>
+                        <li><a href="" class="block py-4">Flower</a></li>
+                        <li><a href="" class="block py-4">Edibles</a></li>
+                        <li><a href="" class="block py-4">Concentrates</a></li>
+                        <li><a href="" class="block py-4">Mushrooms</a></li>
+                        <li><a href="" class="block py-4">Promotions/Bundles</a></li>
+                        <li><a href="" class="block py-4">Support</a></li>
+                        <li><a href="" class="block py-4">Rewards</a></li>
+                        <li><a href="" class="block py-4">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-4xl mx-auto p-6">
+        <!-- Product Section -->
+        <div class="bg-white shadow-md rounded-lg p-4 flex">
+            <div class="w-1/2">
+                <img src="" alt="Product" class="w-full h-auto rounded-lg">
+                <div class="flex mt-4 space-x-2">
+                    <img src="" alt="Product Thumbnail" class="w-20 h-20 border-2 border-green-500 rounded-lg">
+                    <img src="" alt="Product Thumbnail" class="w-20 h-20 border rounded-lg">
+                    <img src="" alt="Product Thumbnail" class="w-20 h-20 border rounded-lg">
+                    <img src="" alt="Product Thumbnail" class="w-20 h-20 border rounded-lg">
                 </div>
             </div>
-        </header>
-        
-    </section>
+            <div class="w-1/2 pl-8">
+                <div class="text-sm text-gray-500 uppercase">Concentrates</div>
+                <h1 class="text-3xl font-bold mt-1">Mix And Match Shatter/Budder 28g (4 X 7G)</h1>
+                <div class="flex items-center mt-2">
+                    <span class="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Indica</span>
+                    <span class="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Sativa 100%</span>
+                </div>
+                <div class="mt-2 flex items-center">
+                    <span class="line-through text-gray-500">$200.00</span>
+                    <span class="text-red-500 text-2xl font-bold ml-2">$120.00</span>
+                </div>
+                <div class="flex items-center mt-2">
+                    <div class="text-yellow-500 flex items-center">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568L24 9.432l-6 5.928 1.432 8.351L12 18.896l-7.432 4.815L6 15.36l-6-5.928 8.332-1.277z"/></svg>
+                        <span class="ml-1 text-gray-800 text-sm">4.6/5</span>
+                    </div>
+                    <span class="text-gray-600 text-sm ml-2">|</span>
+                    <span class="text-gray-600 text-sm ml-2">135 Reviews</span>
+                </div>
+                <div class="mt-4">
+                    <div class="font-bold">Effects</div>
+                    <p class="text-gray-700">Calming, Creative, Happy, Relaxing, Sleepy, Uplifting</p>
+                    <div class="font-bold mt-4">May Relieve</div>
+                    <p class="text-gray-700">Anxiety, Arthritis, Chronic Pain, Depression, Fatigue, Inflammation, Insomnia, Irregular Bowel Movements, Migraines, Mood Swings</p>
+                    <div class="font-bold mt-4">Aromas</div>
+                    <p class="text-gray-700">Chemical, Citrus, Earthy, Pungent, Sour</p>
+                </div>
+                <div class="mt-6">
+                    <div class="font-bold">Description</div>
+                    <p class="text-gray-700">Jungle Diamonds is a slightly indica dominant hybrid strain (60% indica/40% sativa) created through crossing the infamous Slurricane X Gorilla Glue #4 strains.</p>
+                </div>
+                <div class="mt-6 flex items-center">
+                    <div>
+                        <div class="font-bold">Weight</div>
+                        <div class="mt-2 flex items-center space-x-2">
+                            <button class="px-4 py-2 bg-green-100 text-green-800 font-semibold rounded-lg">28g</button>
+                            <button class="px-4 py-2 bg-white border border-gray-300 text-gray-700 font-semibold rounded-lg">1/2lb</button>
+                            <button class="px-4 py-2 bg-white border border-gray-300 text-gray-700 font-semibold rounded-lg">1/4lb</button>
+                        </div>
+                    </div>
+                    <div class="ml-8">
+                        <div class="font-bold">Add Integra Pack</div>
+                        <div class="mt-2 flex items-center space-x-4">
+                            <label class="flex items-center">
+                                <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" checked>
+                                <span class="ml-2 text-gray-700">4g (+$2.00)</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600">
+                                <span class="ml-2 text-gray-700">8g (+$3.00)</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <button class="px-6 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 focus:outline-none">Purchase this product now and earn 80 Points!</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart Section -->
+        <div class="bg-white shadow-md rounded-lg p-4 mt-8 w-1/2 ml-auto">
+            <div class="flex justify-between items-center pb-4 border-b">
+                <div>
+                    <div class="text-lg font-bold">Khalifa Kush (AAAA) 2x</div>
+                    <div class="text-gray-700">Add Integra Pack - 4g</div>
+                </div>
+                <div>
+                    <div class="text-lg font-bold text-gray-700">$120.00</div>
+                    <div class="text-lg font-bold text-gray-700">$2.00</div>
+                </div>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+                <div class="flex items-center space-x-2">
+                    <button class="px-2 py-1 bg-gray-200 text-gray-800 font-bold rounded-lg">-</button>
+                    <span class="text-lg font-bold">2</span>
+                    <button class="px-2 py-1 bg-gray-200 text-gray-800 font-bold rounded-lg">+</button>
+                </div>
+                <div class="text-green-600 font-bold">In Stock</div>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+                <button class="px-6 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 focus:outline-none">Add to Cart | $242.00</button>
+            </div>
+            <div class="mt-4">
+                <ul class="list-disc pl-4">
+                    <li class="text-gray-700">Free Xpress Shipping on orders over <span class="text-green-600">$149</span></li>
+                    <li class="text-gray-700">Order before 12:00pm for same day dispatch</li>
+                    <li class="text-gray-700">Support & ordering open 7 days a week</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Additional Information -->
+        <div class="bg-white shadow-md rounded-lg p-4 mt-8 w-1/2 ml-auto">
+            <div class="flex justify-between items-center">
+                <div class="text-gray-700">SKU: N/A</div>
+                <div class="text-gray-700">Categories: <span class="text-green-600">AAAA Weed, Indica</span></div>
+            </div>
+        </div>
+
+        <!-- Description, Reviews, Refer a Friend Tabs -->
+        <div class="bg-white shadow-md rounded-lg p-4 mt-8 w-1/2 ml-auto">
+            <div class="flex justify-around border-b pb-4">
+                <button class="text-green-600 font-bold border-b-2 border-green-600 pb-2">Description</button>
+                <button class="text-gray-600 font-bold">Reviews (350)</button>
+                <button class="text-gray-600 font-bold">Refer a Friend</button>
+            </div>
+            <div class="mt-4">
+                <p class="text-gray-700">Jungle Diamonds is a slightly indica dominant hybrid strain (60% indica/40% sativa) created through crossing the infamous Slurricane X Gorilla Glue #4 strains. Named</p>
+            </div>
+        </div>
+    </div>
+
     <section class="py-[64px] lg:pb-[120px] lg:pt-0">
         <div class="container">
             <div class="mb-[32px] lg:mb-[64px]">
@@ -141,39 +220,28 @@
                 <div class="grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-8">
                     <div class="product-item">
                         <div
-                            class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
-                        >
+                            class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat">
                             <img src="./assets/images/products/product1.png" alt="" />
                             <span
-                                class="out-of-stock absolute rounded-full py-5 px-8 text-sm text-white bg-[rgba(26, 30, 38, 0.3)]"
-                                >Out Of Stock</span
-                            >
+                                class="out-of-stock absolute rounded-full py-5 px-8 text-sm text-white bg-[rgba(26, 30, 38, 0.3)]">Out
+                                Of Stock</span>
                         </div>
                         <div class="product-content text-center py-5">
-                            <a
-                                href=""
-                                class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
-                                >CONCENTRATES</a
-                            >
+                            <a href="" class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
                             <h3 class="mb-4">
-                                <a href="" class="text-lg text-[#1A1E26]"
-                                    >Mix And Match Shatter/Budder 28g (4 X 7G)</a
-                                >
+                                <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X 7G)</a>
                             </h3>
                             <div class="rating mb-4">
                                 <span>4.6/5 | 135</span>
                                 <a href="" class="text-[#C8C9CB]">Reviews</a>
                             </div>
-                            <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
-                                >Indica 70%</span
-                            >
+                            <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
                             <div class="mb-4">
                                 <span class="text-[#EB2606]">$200.00</span>
                                 <span class="text-[#C8C9CB] text-base">/gram</span>
                             </div>
                             <ul
-                                class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
-                            >
+                                class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
                                 <li>28g</li>
                                 <li>1/2lb</li>
                                 <li>1/4lb</li>
@@ -184,35 +252,25 @@
                     <!--End product-item-->
                     <div>
                         <div
-                            class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
-                        >
+                            class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat">
                             <img src="./assets/images/products/product1.png" alt="" />
                         </div>
                         <div class="product-content text-center py-5">
-                            <a
-                                href=""
-                                class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
-                                >CONCENTRATES</a
-                            >
+                            <a href="" class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
                             <h3 class="mb-4">
-                                <a href="" class="text-lg text-[#1A1E26]"
-                                    >Mix And Match Shatter/Budder 28g (4 X 7G)</a
-                                >
+                                <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X 7G)</a>
                             </h3>
                             <div class="rating mb-4">
                                 <span>4.6/5 | 135</span>
                                 <a href="" class="text-[#C8C9CB]">Reviews</a>
                             </div>
-                            <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
-                                >Indica 70%</span
-                            >
+                            <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
                             <div class="mb-4">
                                 <span class="text-[#EB2606]">$200.00</span>
                                 <span class="text-[#C8C9CB] text-base">/gram</span>
                             </div>
                             <ul
-                                class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
-                            >
+                                class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
                                 <li>28g</li>
                                 <li>1/2lb</li>
                                 <li>1/4lb</li>
@@ -223,35 +281,25 @@
                     <!--End product-item-->
                     <div>
                         <div
-                            class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
-                        >
+                            class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat">
                             <img src="./assets/images/products/product1.png" alt="" />
                         </div>
                         <div class="product-content text-center py-5">
-                            <a
-                                href=""
-                                class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
-                                >CONCENTRATES</a
-                            >
+                            <a href="" class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
                             <h3 class="mb-4">
-                                <a href="" class="text-lg text-[#1A1E26]"
-                                    >Mix And Match Shatter/Budder 28g (4 X 7G)</a
-                                >
+                                <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X 7G)</a>
                             </h3>
                             <div class="rating mb-4">
                                 <span>4.6/5 | 135</span>
                                 <a href="" class="text-[#C8C9CB]">Reviews</a>
                             </div>
-                            <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
-                                >Indica 70%</span
-                            >
+                            <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
                             <div class="mb-4">
                                 <span class="text-[#EB2606]">$200.00</span>
                                 <span class="text-[#C8C9CB] text-base">/gram</span>
                             </div>
                             <ul
-                                class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
-                            >
+                                class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
                                 <li>28g</li>
                                 <li>1/2lb</li>
                                 <li>1/4lb</li>
@@ -262,35 +310,25 @@
                     <!--End product-item-->
                     <div>
                         <div
-                            class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
-                        >
+                            class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat">
                             <img src="./assets/images/products/product1.png" alt="" />
                         </div>
                         <div class="product-content text-center py-5">
-                            <a
-                                href=""
-                                class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
-                                >CONCENTRATES</a
-                            >
+                            <a href="" class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
                             <h3 class="mb-4">
-                                <a href="" class="text-lg text-[#1A1E26]"
-                                    >Mix And Match Shatter/Budder 28g (4 X 7G)</a
-                                >
+                                <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X 7G)</a>
                             </h3>
                             <div class="rating mb-4">
                                 <span>4.6/5 | 135</span>
                                 <a href="" class="text-[#C8C9CB]">Reviews</a>
                             </div>
-                            <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
-                                >Indica 70%</span
-                            >
+                            <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">Indica 70%</span>
                             <div class="mb-4">
                                 <span class="text-[#EB2606]">$200.00</span>
                                 <span class="text-[#C8C9CB] text-base">/gram</span>
                             </div>
                             <ul
-                                class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
-                            >
+                                class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
                                 <li>28g</li>
                                 <li>1/2lb</li>
                                 <li>1/4lb</li>
@@ -303,27 +341,20 @@
             </div>
         </div>
     </section>
-   
+
     <section>
         <div class="container">
             <div class="bg-[#05422C] p-8 lg:p-16 rounded-2xl">
                 <h2
-                    class="text-[32px]/[120%] -tracking-[1.5px] lg:text-[64px]/[110%] lg:-tracking-[4px] text-white font-semibold uppercase"
-                >
+                    class="text-[32px]/[120%] -tracking-[1.5px] lg:text-[64px]/[110%] lg:-tracking-[4px] text-white font-semibold uppercase">
                     UNLOCK 20% OFF YOUR <br class="hidden lg:block" />FIRST ORDER
                 </h2>
                 <p class="text-xl text-[#C3D2CC] my-10">
                     Reveal coupon code by entering your email
                 </p>
-                <form
-                    action=""
-                    class="border-t border-[#346654] pt-10 flex items-center space-x-8"
-                >
-                    <input
-                        type="text"
-                        class="w-full border border-[#346654] rounded-full p-4 lg:p-6"
-                        placeholder="Email Address"
-                    />
+                <form action="" class="border-t border-[#346654] pt-10 flex items-center space-x-8">
+                    <input type="text" class="w-full border border-[#346654] rounded-full p-4 lg:p-6"
+                        placeholder="Email Address" />
                     <button class="btn !h-[72px] min-w-[160px]">Reveal coupon</button>
                 </form>
             </div>
@@ -368,9 +399,7 @@
                                 <a href="" class="text-[#9D9EA2] text-sm">Mushrooms</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Promotions / Bundles</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Promotions / Bundles</a>
                             </li>
                             <li>
                                 <a href="" class="text-[#9D9EA2] text-sm">Support</a>
@@ -398,63 +427,41 @@
                         <h2 class="text-xl text-white uppercase mb-5">More</h2>
                         <ul class="columns-2 *:mb-4">
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in Canada</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Canada</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in New Brunswick</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in New Brunswick</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in Prince Edward Island</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Prince Edward Island</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in Northwest Territories</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Northwest Territories</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in Saskatchewan</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Saskatchewan</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in Manitoba</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Manitoba</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in Quitebec</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Quitebec</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in British Columbia</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in British Columbia</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in Ontario</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Ontario</a>
                             </li>
                             <li>
-                                <a href="" class="text-[#9D9EA2] text-sm"
-                                    >Buy weed online in Alberta</a
-                                >
+                                <a href="" class="text-[#9D9EA2] text-sm">Buy weed online in Alberta</a>
                             </li>
                         </ul>
                     </div>
                     <img src="./assets/images/payment.png" alt="" />
                 </div>
             </div>
-            <div
-                class="flex flex-col lg:flex-row items-center lg:justify-between border-t border-[#46494F] py-8 mt-8"
-            >
+            <div class="flex flex-col lg:flex-row items-center lg:justify-between border-t border-[#46494F] py-8 mt-8">
                 <p class="order-2 lg:order-1 text-[#9D9EA2] text-sm">
                     © 2022 Top Shelf BC. All Rights Reserved.
                 </p>
@@ -466,9 +473,10 @@
             </div>
         </div>
     </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src="./assets/js/jquery.start-rating.svg.js"></script>
-        <script src="./main.js"></script>
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/jquery.start-rating.svg.js"></script>
+    <script src="./main.js"></script>
+</body>
+
 </html>
